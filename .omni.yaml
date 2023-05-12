@@ -1,3 +1,10 @@
 path:
   append:
     - cmd
+
+commands:
+  sayhello:
+    desc: Just says hello
+    run: |
+      echo Hello
+
